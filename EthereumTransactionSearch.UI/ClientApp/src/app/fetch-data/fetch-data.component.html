@@ -1,0 +1,44 @@
+<h1 id="tableLabel">Transaction Search</h1>
+
+<p>This application allows users to search an Ethereum block for all the transactions associated with an address and return the results of the transaction.</p>
+
+<form>
+  <div class="form-group">
+    <span>
+      <input placeholder="Enter block here..." type="search" class="form-control" id="transactionSearch" aria-describedby="transactionSearch" [(ngModel)]="blockSearch" name="transactionSearch" value="{{blockSearch}}">
+      <input placeholder="Enter address here..." type="search" class="form-control address-input" id="blockAddressSearch" aria-describedby="blockAddressSearch" [(ngModel)]="blockAddress" name="blockAddressSearch" value="{{blockAddress}}">
+      <button type="submit" class="btn btn-primary submit-btn" (click)="submit()" [disabled]="searching">Submit</button>
+      <span class="loading" *ngIf="searching">Loading...</span>
+    </span>
+  </div>
+</form>
+<p *ngIf="transactions">{{transactions.length}} transactions returned.</p>
+
+<div class="bd-example">
+  <div class="table-responsive-sm">
+    <table class="table table-striped" aria-labelledby="tableLabel" *ngIf="transactions">
+      <thead>
+        <tr>
+          <th scope="col">Block Hash</th>
+          <th scope="col">Block Number</th>
+          <th scope="col">Gas</th>
+          <th scope="col">Hash</th>
+          <th scope="col">From</th>
+          <th scope="col">To</th>
+          <th scope="col">Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let transaction of transactions">
+          <td class="hash-width" title="{{transaction.blockHash}}">{{ transaction.blockHash }}</td>
+          <td>{{ transaction.blockNumber }}</td>
+          <td>{{ transaction.gas }}</td>
+          <td>{{ transaction.hash }}</td>
+          <td>{{ transaction.from }}</td>
+          <td class="hash-width" title="{{transaction.to}}">{{ transaction.to }}</td>
+          <td>{{ transaction.value }} Ether</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

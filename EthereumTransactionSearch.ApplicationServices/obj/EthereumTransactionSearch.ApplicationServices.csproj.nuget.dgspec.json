@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.ApplicationServices\\EthereumTransactionSearch.ApplicationServices.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.ApplicationServices\\EthereumTransactionSearch.ApplicationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.ApplicationServices\\EthereumTransactionSearch.ApplicationServices.csproj",
+        "projectName": "EthereumTransactionSearch.ApplicationServices",
+        "projectPath": "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.ApplicationServices\\EthereumTransactionSearch.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\mgraham\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.ApplicationServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mgraham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.DataObjects\\EthereumTransactionSearch.DataObjects.csproj": {
+                "projectPath": "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.DataObjects\\EthereumTransactionSearch.DataObjects.csproj"
+              },
+              "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.Domain\\EthereumTransactionSearch.Domain.csproj": {
+                "projectPath": "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.Domain\\EthereumTransactionSearch.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.DataObjects\\EthereumTransactionSearch.DataObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.DataObjects\\EthereumTransactionSearch.DataObjects.csproj",
+        "projectName": "EthereumTransactionSearch.DataObjects",
+        "projectPath": "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.DataObjects\\EthereumTransactionSearch.DataObjects.csproj",
+        "packagesPath": "C:\\Users\\mgraham\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.DataObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mgraham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.Domain\\EthereumTransactionSearch.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.Domain\\EthereumTransactionSearch.Domain.csproj",
+        "projectName": "EthereumTransactionSearch.Domain",
+        "projectPath": "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.Domain\\EthereumTransactionSearch.Domain.csproj",
+        "packagesPath": "C:\\Users\\mgraham\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\EthereumTransactionSearch\\EthereumTransactionSearch.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mgraham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

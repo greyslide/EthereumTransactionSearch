@@ -1,0 +1,25 @@
+.form-control {
+  display: inline-block !important;
+  width: 40% !important;
+}
+
+.address-input {
+  margin-left: 10px;
+}
+
+button.submit-btn {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+span.loading {
+  display: inline-block;
+}
+
+.hash-width {
+  display: block;
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
